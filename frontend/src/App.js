@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import Header from './components/Header'
+import { Outlet } from 'react-router-dom'
 import Footer from './components/Footer'
 const App = () => {
   return (
@@ -8,10 +9,7 @@ const App = () => {
     <Header/>
     <main className='py-3'>
       <Container />
-       
-      <h1>
-      welcome to the Book Catalog
-        </h1>
+       <Outlet/>
         </main>
         <Footer />
     </>
