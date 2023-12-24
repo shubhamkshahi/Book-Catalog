@@ -1,0 +1,15 @@
+{
+  "name": "book_catalog",
+  "version": "1.0.0",
+  "description": "Book Catalog Application Build with Mern Stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "shubham",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
